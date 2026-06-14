@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>隐私政策 - 输液宝</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #f5f7fa;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 16px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    .banner {
+      background: linear-gradient(135deg, #1a6ec1 0%, #4a9eff 100%);
+      color: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    .banner-tag {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+    .banner h1 {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+    .banner p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    h2 {
+      font-size: 17px;
+      color: #1a1a1a;
+      margin: 24px 0 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 18px;
+      background: #1a6ec1;
+      border-radius: 3px;
+    }
+    p {
+      margin-bottom: 12px;
+      color: #4a4a4a;
+      font-size: 14px;
+    }
+    ul {
+      margin: 12px 0;
+      padding-left: 0;
+      list-style: none;
+    }
+    li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 10px;
+      color: #4a4a4a;
+      font-size: 14px;
+    }
+    li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #1a6ec1;
+      font-weight: bold;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 13px;
+    }
+    th, td {
+      border: 1px solid #e8e8e8;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background: #f0f6ff;
+      color: #1a6ec1;
+      font-weight: 600;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #eee;
+      color: #888;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+    @media (max-width: 480px) {
+      .container { padding: 16px; }
+      .banner { padding: 18px; }
+      .banner h1 { font-size: 18px; }
+      table { font-size: 12px; }
+      th, td { padding: 8px 6px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="banner">
+      <div class="banner-tag">本地隐私保障</div>
+      <h1>您的数据仅存在于您的设备中</h1>
+      <p>输液宝坚守"本地存储、无云采集"原则。我们不建立云端数据库，不收集任何个人身份信息（PII）。摄像头画面仅用于本地 AI 滴速识别，不会保存到相册，也不会上传到任何服务器。所有输液监测数据均仅保存在您的手机本地内存中，开发者或任何第三方均无权访问。</p>
+    </div>
+
+    <h2>本地数据处理</h2>
+    <p>输液宝应用在运行过程中产生的实时监测数据及历史记录，均通过本地文件系统或应用内数据库进行存储：</p>
+    <ul>
+      <li>所有输液滴速、剩余液量、流速曲线及预警日志仅存储于手机本地应用沙盒内。</li>
+      <li>摄像头画面仅在设备本地进行实时 AI 推理，不保存、不上传、不做任何云端分析。</li>
+      <li>App 不具备云端同步、远程上传或服务器备份功能，确保数据物理闭环。</li>
+      <li>卸载 App 将同步清除该设备上存储的所有相关监测记录。</li>
+      <li>后台监控期间，所有计算均在本地完成，仅通过系统通知通道发送提醒，不采集或上传任何数据。</li>
+    </ul>
+
+    <h2>零个人信息收集原则</h2>
+    <ul>
+      <li>无账号注册：应用无需注册、登录，不收集手机号、邮箱、姓名或身份证等任何个人身份信息。</li>
+      <li>禁止数据外传：系统不包含任何第三方分析插件或广告 SDK，严禁任何形式的医疗数据共享或外泄。</li>
+      <li>不收集健康医疗数据：本应用仅记录您输入的容量、滴速等操作数据，不构成医疗诊断记录。</li>
+    </ul>
+
+    <h2>信息安全承诺</h2>
+    <p>输液宝软件架构设计严格遵循《个人信息安全规范》中的"最小化原则"与"目的限制原则"。我们从技术底层切断了数据上传的路径，将隐私控制权完全交还给医护人员与患者。</p>
+
+    <h2>权限使用说明</h2>
+    <p>本应用申请的权限及用途如下：</p>
+    <table>
+      <tr>
+        <th>权限</th>
+        <th>用途</th>
+        <th>是否必需</th>
+      </tr>
+      <tr>
+        <td>摄像头</td>
+        <td>实时拍摄输液滴壶画面，进行本地 AI 滴速识别。画面不保存、不上传。</td>
+        <td>是</td>
+      </tr>
+      <tr>
+        <td>通知</td>
+        <td>后台监控期间显示状态通知，并在输液结束或异常时提醒。</td>
+        <td>是</td>
+      </tr>
+      <tr>
+        <td>前台服务</td>
+        <td>锁屏或切换到其他应用时持续进行输液进度计算。</td>
+        <td>是</td>
+      </tr>
+      <tr>
+        <td>唤醒锁</td>
+        <td>防止长时间监控期间设备休眠导致计算中断。</td>
+        <td>是</td>
+      </tr>
+      <tr>
+        <td>振动</td>
+        <td>报警时以 SOS 节奏振动提醒（可选）。</td>
+        <td>否</td>
+      </tr>
+      <tr>
+        <td>系统悬浮窗</td>
+        <td>二级报警时在屏幕顶层显示全局提示（可选）。</td>
+        <td>否</td>
+      </tr>
+      <tr>
+        <td>全屏意图</td>
+        <td>锁屏状态下直接唤醒屏幕并显示报警页面（可选）。</td>
+        <td>否</td>
+      </tr>
+      <tr>
+        <td>选择本地视频</td>
+        <td>分析已录制的输液视频（通过系统选择器，不申请存储权限）。</td>
+        <td>否</td>
+      </tr>
+    </table>
+
+    <h2>设备信息收集</h2>
+    <p>为优化应用兼容性和排查问题，本应用可能读取以下非个人身份信息：</p>
+    <ul>
+      <li>设备型号、操作系统版本：用于诊断特定机型的兼容性问题。</li>
+      <li>应用版本号：用于判断是否需要提示更新。</li>
+      <li>上述信息仅用于本地功能支持，不上传至任何服务器。</li>
+    </ul>
+
+    <h2>您的数据权利</h2>
+    <ul>
+      <li>您可以在"记录"页面查看、导出或删除所有本地存储的输液监测数据。</li>
+      <li>由于所有数据仅保存在您的设备本地，开发者或任何第三方均无权访问、修改或删除您的数据。</li>
+      <li>您可以随时在系统设置中撤销摄像头、通知等权限，但撤销必需权限将导致核心功能无法使用。</li>
+    </ul>
+
+    <h2>儿童隐私</h2>
+    <ul>
+      <li>本应用不面向 14 周岁以下儿童设计。</li>
+      <li>如果您是儿童监护人，发现儿童使用本应用，请联系开发者。</li>
+    </ul>
+
+    <div class="footer">
+      生效日期：2026年6月13日<br>
+      最后更新：2026年6月13日<br><br>
+      开发者及任何第三方组织均不收集、不存储、不访问您的临床数据。<br>
+      如有疑问，请联系：wmy_ld@126.com
+    </div>
+  </div>
+</body>
+</html>
